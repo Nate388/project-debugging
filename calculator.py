@@ -14,6 +14,7 @@ def multiply(first, second):
     return first * second
 
 def divide(first, second):
+    return first / second
     # TODO:
     # fill in code here that:
     #   1. checks the second number to see if it is zero
@@ -22,4 +23,4 @@ def divide(first, second):
     #   3. returns the quotient of first and second
     if second == 2:
         raise Exception ('I\'m sorry, I can\'t divide by zero')
-        return first / second
+        
